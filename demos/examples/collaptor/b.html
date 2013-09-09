@@ -13,6 +13,21 @@
     
   $( document ).on( "pageinit", "#myPage", function() {
   
+  
+  $('ul').delegate( ".ui-li-static", "click", function( e ) {
+              var val = $(this).text();
+          $('input').val(val);
+          $('ul#autocomplete').hide();
+          $('ul#autocomplete').empty();
+  } );
+         
+    /*         
+    $('.ui-li-static').on('click',function(){
+          var val = $(this).text();
+          $('input').val(val);
+          $('ul#autocomplete').hide();
+          $('ul#autocomplete').empty();
+    });*/
     $('.ui-input-clear').on('click', function(){
       $('ul#autocomplete').show();
     });
@@ -41,14 +56,7 @@
                 $ul.html( html );
                 $ul.listview( "refresh" );
                 $ul.trigger( "updatelayout");
-                /*
-                $('.ui-li-static').click(function(){
-                  var val = $(this).text();
-                  $('input').val(val);
-                  $('ul#autocomplete').hide();
-                  $('ul#autocomplete').empty();
-                 });
-                 */
+
                  
             });
         }
