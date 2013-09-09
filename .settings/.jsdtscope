@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="js/navigation/|tests/unit/button-markup/|tests/integration/navigation/event/|tests/unit/init/|demos/examples/backbone-require/js/routers/|tests/unit/rangeslider/|demos/examples/backbone-require/js/collections/|build/|tools/|demos/examples/backbone-require/js/libs/|demos/examples/backbone-require/js/views/|tests/integration/transitions/|tests/unit/table/|tests/unit/event/|tests/unit/media/|tests/unit/checkboxradio/|external/requirejs/plugins/|tests/unit/kitchensink/|tests/integration/select/|external/|tests/unit/select/|demos/examples/listviews/|js/widgets/forms/|demos/examples/backbone-require/js/models/|tests/integration/degrade-inputs/|tests/unit/degrade-inputs/|tests/unit/fixed-toolbar/|tests/unit/support/|js/transitions/|build/tasks.old/|tests/integration/dialog/|tests/integration/page/|tests/integration/listview/|external/requirejs/|tests/integration/navigation/|tests/integration/fixed-toolbar/|tests/unit/individual-modules/|tests/unit/panel/|tests/unit/popup/|demos/examples/swipe/|tests/unit/dialog/|demos/widgets/navigation/|tests/integration/checkboxradio/|js/events/|tests/unit/zoom/|tests/integration/toolbar/|tests/unit/transitions/|tests/unit/core/|demos/examples/backbone-require/js/|tests/integration/popup/|tests/integration/core/|js/|tests/unit/button/|js/transitions/visuals/|tests/integration/filterable/|tests/unit/controlgroup/|tests/unit/content/|demos/examples/maps/|tests/unit/page/|tests/unit/page-sections/|tests/|tests/unit/field-contain/|tests/integration/navigation/method/|tests/integration/navigation/init-tests/|demos/examples/popups/|tests/unit/flipswitch/|tests/integration/collapsible/|js/widgets/|tests/integration/dialog-extension/|tests/unit/slider/|tests/unit/widget/|tests/unit/path/|tests/integration/navigation/sequence/|tests/unit/textinput/|tests/integration/navigation/multipage/|tests/unit/loader/|tests/unit/navbar/|build/tasks/|demos/_assets/js/|tests/integration/forms/|demos/widgets/popup/" kind="src" path=""/>
+	<classpathentry excluding="tasks.old/|tasks/" kind="src" path="build"/>
+	<classpathentry kind="src" path="build/tasks"/>
+	<classpathentry kind="src" path="build/tasks.old"/>
+	<classpathentry kind="src" path="demos/_assets/js"/>
+	<classpathentry excluding="routers/|collections/|libs/|views/|models/" kind="src" path="demos/examples/backbone-require/js"/>
+	<classpathentry kind="src" path="demos/examples/backbone-require/js/collections"/>
+	<classpathentry kind="src" path="demos/examples/backbone-require/js/libs"/>
+	<classpathentry kind="src" path="demos/examples/backbone-require/js/models"/>
+	<classpathentry kind="src" path="demos/examples/backbone-require/js/routers"/>
+	<classpathentry kind="src" path="demos/examples/backbone-require/js/views"/>
+	<classpathentry kind="src" path="demos/examples/listviews"/>
+	<classpathentry kind="src" path="demos/examples/maps"/>
+	<classpathentry kind="src" path="demos/examples/popups"/>
+	<classpathentry kind="src" path="demos/examples/swipe"/>
+	<classpathentry kind="src" path="demos/widgets/navigation"/>
+	<classpathentry kind="src" path="demos/widgets/popup"/>
+	<classpathentry excluding="requirejs/plugins/|requirejs/" kind="src" path="external"/>
+	<classpathentry excluding="plugins/" kind="src" path="external/requirejs"/>
+	<classpathentry kind="src" path="external/requirejs/plugins"/>
+	<classpathentry excluding="navigation/|widgets/forms/|transitions/|events/|transitions/visuals/|widgets/" kind="src" path="js"/>
+	<classpathentry kind="src" path="js/events"/>
+	<classpathentry kind="src" path="js/navigation"/>
+	<classpathentry excluding="visuals/" kind="src" path="js/transitions"/>
+	<classpathentry kind="src" path="js/transitions/visuals"/>
+	<classpathentry excluding="forms/" kind="src" path="js/widgets"/>
+	<classpathentry kind="src" path="js/widgets/forms"/>
+	<classpathentry excluding="unit/button-markup/|integration/navigation/event/|unit/init/|unit/rangeslider/|integration/transitions/|unit/table/|unit/event/|unit/media/|unit/checkboxradio/|unit/kitchensink/|integration/select/|unit/select/|integration/degrade-inputs/|unit/degrade-inputs/|unit/fixed-toolbar/|unit/support/|integration/dialog/|integration/page/|integration/listview/|integration/navigation/|integration/fixed-toolbar/|unit/individual-modules/|unit/panel/|unit/popup/|unit/dialog/|integration/checkboxradio/|unit/zoom/|integration/toolbar/|unit/transitions/|unit/core/|integration/popup/|integration/core/|unit/button/|integration/filterable/|unit/controlgroup/|unit/content/|unit/page/|unit/page-sections/|unit/field-contain/|integration/navigation/method/|integration/navigation/init-tests/|unit/flipswitch/|integration/collapsible/|integration/dialog-extension/|unit/slider/|unit/widget/|unit/path/|integration/navigation/sequence/|unit/textinput/|integration/navigation/multipage/|unit/loader/|unit/navbar/|integration/forms/" kind="src" path="tests"/>
+	<classpathentry kind="src" path="tests/integration/checkboxradio"/>
+	<classpathentry kind="src" path="tests/integration/collapsible"/>
+	<classpathentry kind="src" path="tests/integration/core"/>
+	<classpathentry kind="src" path="tests/integration/degrade-inputs"/>
+	<classpathentry kind="src" path="tests/integration/dialog"/>
+	<classpathentry kind="src" path="tests/integration/dialog-extension"/>
+	<classpathentry kind="src" path="tests/integration/filterable"/>
+	<classpathentry kind="src" path="tests/integration/fixed-toolbar"/>
+	<classpathentry kind="src" path="tests/integration/forms"/>
+	<classpathentry kind="src" path="tests/integration/listview"/>
+	<classpathentry excluding="event/|method/|init-tests/|sequence/|multipage/" kind="src" path="tests/integration/navigation"/>
+	<classpathentry kind="src" path="tests/integration/navigation/event"/>
+	<classpathentry kind="src" path="tests/integration/navigation/init-tests"/>
+	<classpathentry kind="src" path="tests/integration/navigation/method"/>
+	<classpathentry kind="src" path="tests/integration/navigation/multipage"/>
+	<classpathentry kind="src" path="tests/integration/navigation/sequence"/>
+	<classpathentry kind="src" path="tests/integration/page"/>
+	<classpathentry kind="src" path="tests/integration/popup"/>
+	<classpathentry kind="src" path="tests/integration/select"/>
+	<classpathentry kind="src" path="tests/integration/toolbar"/>
+	<classpathentry kind="src" path="tests/integration/transitions"/>
+	<classpathentry kind="src" path="tests/unit/button"/>
+	<classpathentry kind="src" path="tests/unit/button-markup"/>
+	<classpathentry kind="src" path="tests/unit/checkboxradio"/>
+	<classpathentry kind="src" path="tests/unit/content"/>
+	<classpathentry kind="src" path="tests/unit/controlgroup"/>
+	<classpathentry kind="src" path="tests/unit/core"/>
+	<classpathentry kind="src" path="tests/unit/degrade-inputs"/>
+	<classpathentry kind="src" path="tests/unit/dialog"/>
+	<classpathentry kind="src" path="tests/unit/event"/>
+	<classpathentry kind="src" path="tests/unit/field-contain"/>
+	<classpathentry kind="src" path="tests/unit/fixed-toolbar"/>
+	<classpathentry kind="src" path="tests/unit/flipswitch"/>
+	<classpathentry kind="src" path="tests/unit/individual-modules"/>
+	<classpathentry kind="src" path="tests/unit/init"/>
+	<classpathentry kind="src" path="tests/unit/kitchensink"/>
+	<classpathentry kind="src" path="tests/unit/loader"/>
+	<classpathentry kind="src" path="tests/unit/media"/>
+	<classpathentry kind="src" path="tests/unit/navbar"/>
+	<classpathentry kind="src" path="tests/unit/page"/>
+	<classpathentry kind="src" path="tests/unit/page-sections"/>
+	<classpathentry kind="src" path="tests/unit/panel"/>
+	<classpathentry kind="src" path="tests/unit/path"/>
+	<classpathentry kind="src" path="tests/unit/popup"/>
+	<classpathentry kind="src" path="tests/unit/rangeslider"/>
+	<classpathentry kind="src" path="tests/unit/select"/>
+	<classpathentry kind="src" path="tests/unit/slider"/>
+	<classpathentry kind="src" path="tests/unit/support"/>
+	<classpathentry kind="src" path="tests/unit/table"/>
+	<classpathentry kind="src" path="tests/unit/textinput"/>
+	<classpathentry kind="src" path="tests/unit/transitions"/>
+	<classpathentry kind="src" path="tests/unit/widget"/>
+	<classpathentry kind="src" path="tests/unit/zoom"/>
+	<classpathentry kind="src" path="tools"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
